@@ -1,0 +1,77 @@
+/*--------*/
+/* Global */
+/*--------*/
+
+body {
+  background-color: black;
+}
+
+button {
+  background-color: #0769ad;
+  border: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*----------*/
+/* Main CSS */
+/*----------*/
+
+.weatherContainer {
+  max-width: 500px;
+  width: calc(100% - 30px);
+  margin-right: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weatherContent {
+  padding: 20px;
+  width: 100%;
+  min-height: 200px;
+  text-align: center;
+}
+
+.weatherCity {
+  color: #0769ad;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.weatherTemp {
+  color: #0769ad;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.weatherTemp:hover {
+  cursor: pointer;
+}
+
+.weatherCurrent {
+  color: #0769ad;
+  text-align: center;
+}
+
+.githubLink {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 17px;
+  color: #0769ad;
+}
+
+.githubLink:hover {
+  color: #0769ad;
+}
